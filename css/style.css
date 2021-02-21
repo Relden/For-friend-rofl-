@@ -1,0 +1,108 @@
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside,main{display: block;}
+html,body{height:100%;;font-size:100%;line-height:1;;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    background: url(../img/background.jpg) 0 0/cover fixed no-repeat;
+    color: white;
+}
+a{
+    color:white
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(5, 5, 5, 0.425);
+}
+
+header.header{
+    position: sticky;
+    
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(43, 42, 42, 0.144);
+}
+
+.logo{
+    padding: 15px;
+    margin-top: 5px;
+}
+
+nav.menu{
+    padding: 5px 30px 10px 0;
+}
+ul.menu__list {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+li.menu__item{
+    margin-left: 35px;
+    border: solid 2px rgba(90, 23, 23, 0.952);
+    border-radius: 5px 13px;
+    cursor: pointer;
+    padding: 10px 25px;
+
+}
+
+a.menu__link{
+    margin-left: 10px; ;
+    color: rgb(255, 255, 255);
+    font-size: 25;
+    font-weight: bold;
+}
+
+.about_me{
+  text-align: left;
+  color: white;
+}
+h2.about{
+    text-align: center;
+}
+p.me_1{
+    padding: 0 0 10px 25px;
+}
+
+li.serveces__item{
+    padding: 10px;
+}
+
+h2.footer_title{
+    text-align: center;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.phone{
+    padding: 10px 50px 25px;
+}
+.instagram{
+    padding: 10px 50px 25px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.instagram :before{
+    content: url(../img/instagram.png);
+    position:absolute;
+    left: 1em;
+}
